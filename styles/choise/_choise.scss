@@ -1,0 +1,40 @@
+.choise{
+    display: flex;
+}
+.choise__img{
+    @include flex_center();
+    align-items: center;
+    width: 50%;
+    height: 798px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EBECDC;
+}
+.choise__women{
+    background-image: url(../images/women.png);
+}
+.choise__men{
+    background-image: url(../images/men.png);
+}
+
+
+@media (max-width: 768px) {
+
+.choise__img {
+    height: 450px;
+    }
+}
+
+@media  (max-width: 320px) {
+    
+.choise {
+    display:block;
+    }
+.choise__img {
+    width: 100%;
+    height: 320px;
+    }
+}

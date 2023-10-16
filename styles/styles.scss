@@ -1,0 +1,18 @@
+@import './mixin/mixin';
+@import './header/header';
+@import './nature/nature';
+@import './best/best';
+@import './choise/choise';
+@import './sing/sing';
+@import './wool/wool';
+@import './footer/footer';
+
+
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+

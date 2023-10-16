@@ -1,0 +1,64 @@
+
+.sign{
+    background-color: #EBECDC;
+}
+ .sign__text-container{
+    @include flex_column();
+    margin: 0 auto;
+    height: 280px;
+    width: 600px;
+ }
+ .sign__text{
+    margin-top: 60px;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D1E1E;
+ }
+ .button__sign {
+    margin: 30px 150px 15px;
+    align-self: flex-end;
+    width: 80px;
+    height: 26px;
+    border-radius: 2px;
+    border-color: transparent; 
+    transition: all 0.3s;
+     &:hover {
+        background-color: #e0e2d6;
+        cursor: pointer;
+    }
+ }
+   
+ .sign__checkbox-text{
+    margin-left: 160px;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #2D1E1E;
+     .privacy__policy {
+    margin-left: 20px;
+ }
+ }
+
+
+@media  (max-width: 320px) {
+
+.sign__text-container {
+   height: 200px;
+   width: 100%;
+  }
+.sign__text {
+   margin: 40px 2px 5px 2px;
+   font-size: 9px;
+   line-height: 16px;
+  }
+.button__sign {
+   margin: 20px 20px 20px;
+   align-self: flex-end;
+}
+.sign__checkbox-text {
+   margin-left: 60px;
+   font-size: 9px;
+  }
+}
